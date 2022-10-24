@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones a Medida</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav">
+          <h2 class="animate__animated animate__fadeInUp">
+            <a title="Inversiones a Medida" href="home.html" target="_self">
+                <img src="./imagenes/Logo4.png" alt="logo InversionesaMedida"/></a><h2>
+            <div class="menu">
+                <a href="./home.html">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+            </div>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+                <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "locale": "es"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+    </nav>
+<br><br><br><br>
+
+<main>
+<div class="contact-container">
+  <div class="left-col">
+  </div>
+  <div class="right-col">
+    <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+  <div class="description"></div>
+</div>
+    
+    <h1>Contactenos</h1>
+    
+    <form id="contact-form" method="post">
+      <label for="name">Nombre Completo</label>
+  <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+      <label for="email">Direccion de correo electronico</label>
+  <input type="email" id="email" name="email" placeholder="Ingrese su Email" required>
+      <label for="message">Mensaje</label>
+  <textarea rows="6" placeholder="Ingrese su mensaje" id="message" name="message" required></textarea>
+      <button type="submit" id="submit" name="submit">Enviar</button>
+  
+</form>
+<div id="error"></div>
+<div id="success-msg"></div>
+  </div>
+</div>
+</main>
+    <!-- <div id="wrap">
+        <br><br>
+            <form id="contactForm">
+                        <label for="email">Rellene este formulario para ponerse en contacto con nosotros.</label>
+                        <br><br>
+                <label for="email">Tu Email:</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo.">
+                <label for="nombre">Tu Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Breve descripción del mensaje">
+                <label for="descripcion">Descripción del mensaje:</label>
+                <span class="caracteres">Tamaño máximo 500 letras</span>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba el mensaje detalladamente. 
+        Le responderemos al email de contacto lo antes posible."></textarea>
+                <input type="submit" id="enviar" value="Enviar">
+                <div style="clear:both"></div>
+                <div id="respuesta"></div>
+            </form>
+        </div>         -->
+
+        <footer class="footer">
+          <div class="containerFoot">
+              <div class="row">
+                  <div class="footer-col">
+                      <h4>empresa</h4>
+                      <ul>
+                          <li><a href="#">acerca de nosotros</a></li>
+                          <li><a href="#">nuestros servicios</a></li>
+                          <li><a href="#">politica de privacidad</a></li>
+                          <li><a href="#">programa de afiliacion</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>proyectos</h4>
+                      <ul>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">mercado de capitaLes</a></li>
+                          <li><a href="#">bolsa de valores</a></li>
+                          <li><a href="#">resumen año financiero</a></li>
+                          <li><a href="#">finanzas corporativas y personales</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>research</h4>
+                      <ul>
+                          <li><a href="#">cardiff Oncology INC</a></li>
+                          <li><a href="#">blink Charging Co</a></li>
+                          <li><a href="#">celldex Therapeutics Inc</a></li>
+                          <li><a href="#">tesla Inc</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>Siguenos</h4>
+                      <div class="social-links">
+                          <a href="#"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#"><i class="fab fa-twitter"></i></a>
+                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+     </footer>
+        
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/contacto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</body>
+</html>
